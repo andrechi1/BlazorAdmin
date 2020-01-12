@@ -44,7 +44,9 @@
             <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="index3.html" class="nav-link">Home</a>
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                Home
+            </NavLink>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
             <a href="#" class="nav-link">Contact</a>
@@ -158,14 +160,15 @@
     </ul>
 </nav>
 <!-- /.navbar -->
+
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <NavLink class="brand-link" href="index3">
         <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
              style="opacity: .8">
         <span class="brand-text font-weight-light">AdminLTE 3</span>
-    </a>
+    </NavLink>
 
     <!-- Sidebar -->
     <div class="sidebar">
@@ -194,22 +197,22 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="./index.html" class="nav-link active">
+                            <NavLink class="nav-link" href="index1">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Dashboard v1</p>
-                            </a>
+                            </NavLink>
                         </li>
                         <li class="nav-item">
-                            <a href="./index2.html" class="nav-link">
+                            <NavLink class="nav-link" href="index2">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Dashboard v2</p>
-                            </a>
+                            </NavLink>
                         </li>
                         <li class="nav-item">
-                            <a href="./index3.html" class="nav-link">
+                            <NavLink class="nav-link" href="index3">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Dashboard v3</p>
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                 </li>
